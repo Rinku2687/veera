@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19186" started-at="2021-02-22T10:25:07 CST" finished-at="2021-02-22T10:25:26 CST">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginTest.verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.tests.sample.LoginTest@57e1b0c]" name="verifyLogin" class="com.mystore.tests.sample.LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="LoginTest.verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.tests.sample.LoginTest@57e1b0c]" name="verifyLogin" class="com.mystore.tests.sample.LoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test_All_Chrome" duration-ms="19186" started-at="2021-02-22T10:25:07 CST" finished-at="2021-02-22T10:25:26 CST">
+      <class name="com.mystore.tests.sample.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mystore.tests.sample.LoginTest@57e1b0c]" name="init" is-config="true" duration-ms="135" started-at="2021-02-22T10:25:07 CST" finished-at="2021-02-22T10:25:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mystore.tests.sample.LoginTest@57e1b0c]" name="setup" is-config="true" duration-ms="5545" started-at="2021-02-22T10:25:08 CST" finished-at="2021-02-22T10:25:13 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.tests.sample.LoginTest@57e1b0c]" name="verifyLogin" duration-ms="12391" started-at="2021-02-22T10:25:13 CST" data-provider="credentials" finished-at="2021-02-22T10:25:26 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qateam0123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qa1234qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mystore.tests.sample.LoginTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="670" started-at="2021-02-22T10:25:26 CST" finished-at="2021-02-22T10:25:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite(java.lang.Boolean, org.testng.ITestResult)[pri:0, instance:com.mystore.tests.sample.LoginTest@57e1b0c]" name="afterSuite" is-config="true" duration-ms="1774" started-at="2021-02-22T10:25:26 CST" finished-at="2021-02-22T10:25:28 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mystore.tests.sample.LoginTest -->
+    </test> <!-- Test_All_Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

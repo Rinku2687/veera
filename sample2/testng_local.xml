@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.mystore.util.ReportListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Test_All_Chrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="sendEmail" value="true"></parameter>		
+		<classes>
+			<class name="com.mystore.tests.sample.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<!--test thread-count="5" name="Test_All_Firefox">
+		<parameter name="browser" value="FireFox"></parameter>
+		<classes>
+			<class name="com.mystore.tests.sample.LoginTest" />
+		</classes>
+	</test>  Test -->
+</suite> <!-- Suite -->
